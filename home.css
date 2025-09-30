@@ -1,0 +1,160 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    /* no added margin as 0px is not needed to list */
+    background: url("images/dark-wood.jpg");
+}
+
+.wrapper {
+    /* changes container content by setting width, border spacing & size, etc. */
+    width: 940px;
+    margin: 20px auto;
+    border: 2px #7b957b;
+    background-color: #ffffff
+}
+
+header {
+    height: 160px;
+    /* changes verticle size of header */
+}
+
+header,
+img {
+    float: left;
+}
+
+/* moves element to left, allows text to wrap image/appear side by side */
+nav,
+footer {
+    /* cosmetic changes to footer navigation */
+    clear: both;
+    background-color: #c4c4c4;
+    color: #fff;
+    height: 30px;
+}
+
+nav ul {
+    /* affects  navigation line- specifically ul list in html */
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    /* affects  navigation line- specifically li list in html */
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li a:hover,
+nav li a.current {
+    /* color change when hover */
+    color: #000;
+    transition: 0.3s
+        /* transition makes hover less abrupt or more smooth */
+}
+
+.courses {
+    /* main info section */
+    float: left;
+    width: 659px;
+    border-right: 1px #115c11;
+}
+
+.courses article {
+    overflow: auto;
+    /* adds scroll bar when necessary when verticle content doesn't fit */
+    width: 100%;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px #ff4444;
+}
+
+figcaption {
+    text-align-last: center;
+    font-size: 80%;
+}
+
+hgroup {
+    margin-top: 30px;
+}
+
+h2,
+h3 {
+    /* affects both subheader types */
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+}
+
+/* just h2 impacted */
+
+h3 {
+    /* just h3 impacted */
+    margin-bottom: 10px;
+    color: rgb(118, 118, 234);
+}
+
+aside {
+    /* side bar cosmetic changes */
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+}
+
+aside h2 {
+    padding: 20px 0px 10px 0px;
+}
+
+.contact {
+    padding-top: 30px;
+}
+
+aside article a {
+    display: block;
+    /*change <a> tag(inline element) to a block element */
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+aside article a:hover {
+    color: #7b957b;
+}
+
+/* footer */
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+
+
+
+
+

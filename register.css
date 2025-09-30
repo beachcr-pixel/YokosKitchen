@@ -1,0 +1,58 @@
+fieldset {
+    /* covers the form for user to input personal info */
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    margin: auto
+}
+
+label {
+    /* covers the labels of the form */
+    float: left;
+    width: 15em;
+    text-align: right;
+}
+
+input,
+select,
+textarea {
+    /* covers the internal area of form*/
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input:required {
+    /* covers the outline of the boxes to input info*/
+    border: 2px solid blue;
+}
+
+.optional {
+    border: 2px #ff4444;
+}
+
+input[type="submit"] {
+    /* cosmetic changes to submit button */
+    width: 7em;
+    background-color: #ff4444;
+    color: white;
+    margin-left: 4em
+}
+
+h1 {
+    /* header changes */
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.courses {
+    border: none;
+}
+
+aside {
+    /* changes side bar info -- matches css of other pages, creates website cohesion */
+    border-left: 1px #7b957b
+}
